@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import tabbar from '@/views/tabbar/index.vue'
-import { fetchTest } from '@/api/test'
-
-fetchTest()
 </script>
 
 <template>
@@ -11,5 +8,12 @@ fetchTest()
 </template>
 
 <style scoped>
+@import 'normalize.css';
 
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: 14px;
+}
 </style>
