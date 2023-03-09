@@ -1,5 +1,6 @@
 import type { UnwrapRef } from 'vue'
 import { ref } from 'vue'
+
 export function useAsync<T>(asyncFn: () => Promise<T>, initValue: T, immediate = true) {
   const pending = ref(false)
   const data = ref(initValue)

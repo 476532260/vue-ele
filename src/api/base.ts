@@ -12,7 +12,6 @@ instance.interceptors.response.use((response) => {
     showDialog({
       message: msg
     }).then(() => {
-      // 关闭弹窗
       
     })
     return Promise.reject(msg)

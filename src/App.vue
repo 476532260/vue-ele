@@ -7,10 +7,11 @@ import tabbar from '@/views/tabbar/index.vue'
   <tabbar></tabbar>
 </template>
 
-<style scoped>
+<style>
 @import 'normalize.css';
 
 #app {
+  /** 字体抗锯齿 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
